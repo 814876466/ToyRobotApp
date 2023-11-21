@@ -108,7 +108,7 @@ describe("test processCommand function", () => {
   });
 });
 
-describe("test the valid command", () => {
+describe("test the invalid command", () => {
   beforeEach(() => {
     consoleWarnSpy = jest.spyOn(console, "warn").mockImplementation(() => {});
   });
