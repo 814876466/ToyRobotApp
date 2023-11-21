@@ -6,21 +6,42 @@
 
 A simple Toy Robot App implemented in Node.js with Jest for testing.
 
+Make sure you have npm installed in your environment:
+
 1. Clone the repository:
 
-   git clone https://github.com/
-   Navigate to the project directory:
+   git clone git@github.com:814876466/ToyRobotApp.git
 
-cd the foldername
+cd ToyRobotApp
 
 2. Install dependencies:
    npm install
 
 3. Run the Toy Robot App with the following command:
 
-npm start
+   npm start
 
-Follow the instructions to input commands for the robot:
+The following command is supported by the toy robot app:
+PLACE X,Y,F: Place the robot at the specified coordinates (X, Y) and facing the specified direction (NORTH, SOUTH, EAST, WEST).
+MOVE: Move the robot one step in the direction it is currently facing.
+LEFT: Rotate the robot 90 degrees to the left.
+RIGHT: Rotate the robot 90 degrees to the right.
+REPORT: Report the current position and direction of the robot.
+please note that PLACE command have to be the initial command
+
+here are some input examples:
+a)
+PLACE 0,0,NORTH
+MOVE
+REPORT
+
+b)
+PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
 
 3. Testing
 
