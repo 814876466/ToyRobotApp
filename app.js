@@ -131,7 +131,6 @@ function isBeenPlaced(action) {
   }
 }
 function isPlaceValidate(parts) {
-  console.log("valildate", parts);
   if (parts.length !== 4) {
     console.warn("please check the numbers of value of PLACE");
     return;
