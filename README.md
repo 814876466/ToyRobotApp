@@ -27,9 +27,9 @@ MOVE: Move the robot one step in the direction it is currently facing.
 LEFT: Rotate the robot 90 degrees to the left.
 RIGHT: Rotate the robot 90 degrees to the right.
 REPORT: Report the current position and direction of the robot.
-please note that PLACE command have to be the initial command
+please note that PLACE command have to be the initial command, and one command means one action, you cannot enter mutiplie actions at the same time.
 
-here are some input examples:
+Here are some input examples:
 a)
 PLACE 0,0,NORTH
 MOVE
