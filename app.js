@@ -90,7 +90,7 @@ function startSimulation() {
 
   while (true) {
     const command = readlineSync.question(
-      'Enter a command to start (or "EXIT" to end): '
+      'Enter a command to play the toy robot (or "EXIT" to end): '
     );
 
     if (command.toUpperCase() === "EXIT") {
